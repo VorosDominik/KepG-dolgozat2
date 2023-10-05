@@ -16,6 +16,19 @@ class FunkcionalisGaleria {
     getAktkep(){
         return this.#lista[this.#id].kep;
     }
+    getAktkepoweride(seged){
+        return this.#lista[seged].kep;
+
+    }
+    getAktNEVoweride(seged){
+        return this.#lista[seged].nev;
+    }
+    getAktnev(){
+        return this.#lista[this.#id].nev;
+    }
+    getAktleiras(){
+        return this.#lista[this.#id].leiras;
+    }
     jobb(){
         this.#id++;
         if(this.#id>=this.#lista.length){
@@ -28,6 +41,8 @@ class FunkcionalisGaleria {
             this.#id=this.#lista.length-1
         }
     }
+    
+    
 
     
 }
