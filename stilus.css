@@ -3,6 +3,7 @@ body {
     background: beige;
     margin: 0;
     padding: 0;
+    display: flex;
   }
   
   main {
@@ -11,10 +12,20 @@ body {
     margin: auto;
     background: white;
     padding: 10px;
+  
+   
+  }
+  aside{
+    width: 80%;
+    max-width: 800px;
+    margin: 30px;
+    background: white;
+    padding: 30px;
   }
   
   article {
     margin-bottom: 20px;
+   
   }
   
   /* Galéria stílusok */
@@ -52,8 +63,8 @@ body {
     
   }
   
-  #felsosor > div {
-    flex-basis: calc(33.33% - 10px);
+  #felsosor  div {
+
     margin: 5px;
     text-align: center;
     border: 1px solid gray;
@@ -63,16 +74,16 @@ body {
     
   }
   
-  #felsosor >  img {
+  #felsosor   img {
     width: 100%;
     max-width: 100%;
-    width: 600px;
+    width: auto;
     height: auto;
     border: 2px solid red;
     
   }
   
-  #felsosor > div button {
+  #felsosor  div button {
     background-color: #000000;
     color: #fff;
     padding: 10px 15px;

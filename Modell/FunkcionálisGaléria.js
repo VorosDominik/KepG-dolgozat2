@@ -29,6 +29,10 @@ class FunkcionalisGaleria {
     getAktleiras(){
         return this.#lista[this.#id].leiras;
     }
+    getAktleirasOWERWRITE(seged){
+        return this.#lista[seged].leiras;
+
+    }
     jobb(){
         this.#id++;
         if(this.#id>=this.#lista.length){
